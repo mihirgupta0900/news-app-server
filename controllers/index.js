@@ -13,7 +13,7 @@ const headers = {
 
 let cachedData = {everything: {}, country: {}}
 let cacheTime = {everything: {}, country: {}}
-const maxChacheTime = 2 * 60 * 1000 // 2 minutes
+const maxChacheTime = 5 * 60 * 1000 // 5 minutes
 
 exports.getResByQuery = async (req, res, next) => {
     // in memory cache
